@@ -11,10 +11,10 @@ package com.teachmeskills.hw.lesson_5;
 
 public class Task2 {
 
-    public static void Task2Runner(){
+    public static void Task2Runner() {
 
-        int[][] firstArrayToMultiply =  {{1,0,0,0},{0,1,0,0},{0,0,0,0}};
-        int[][] secondArrayToMultiply = {{1,2,3},{1,1,1},{0,0,0},{2,1,0}};
+        int[][] firstArrayToMultiply = {{1, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, 0, 0}};
+        int[][] secondArrayToMultiply = {{1, 2, 3}, {1, 1, 1}, {0, 0, 0}, {2, 1, 0}};
         int[][] resultOfMultiplication = new int[3][3];
 
         for (int i = 0; i < firstArrayToMultiply.length; i++) {
